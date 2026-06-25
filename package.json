@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
+    "test:remote": "npx playwright test --project=lambdatest",
     "report": "npx playwright show-report"
   },
   "keywords": [],
